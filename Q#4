@@ -1,0 +1,10 @@
+from datetime import datetime
+
+
+def get_current_date_time(feet, inches, time):
+    datetime_object = datetime.now()
+
+    print("Feet: ", feet)
+    print("Inches: ", inches)
+    print("Current Date and Time:", datetime_object)
+    print("Type: ", type(datetime_object))
